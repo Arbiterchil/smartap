@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="15dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+android:background="@color/orange"
+    android:layout_height="190dp">
+    <RelativeLayout
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@color/lime"
+            android:layout_marginTop="40dp"
+            android:layout_width="20dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/green"
+            android:layout_height="20dp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@color/red"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="20dp"
+            android:id="@+id/redd"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:src="@drawable/incog"
+            android:layout_width="100dp"
+            android:id="@+id/incognito"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp" />
+        <ImageView
+            android:src="@drawable/checkat"
+            android:layout_width="100dp"
+            android:id="@+id/heremeout"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp" />
+
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/realorange"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:textSize="20dp"
+            android:text="112368"
+            android:id="@+id/kath"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@color/realorange"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textSize="14dp"
+                android:text="Amad, Erchil"
+                android:paddingTop="10dp"
+                android:id="@+id/niko"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmagic"
+    tools:context=".giftclass">
+
+
+    <LinearLayout
+        android:background="@color/darkmagic"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/gift"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Spinner
+            android:layout_marginTop="30dp"
+            android:id="@+id/spinthatshit"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:background="@drawable/exaround"
+            android:layout_marginTop="20dp"
+            android:id="@+id/uidcreta"
+            android:text="Uid Selected"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/gnamedaw"
+           android:textColor="@color/white"
+            android:text="Groupname"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/gpassdaw"
+            android:textColor="@color/white"
+            android:text="Group Password"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/gid"
+            android:textColor="@color/white"
+            android:text="Group ID"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/groupcreatorId"
+            android:textColor="@color/white"
+            android:text="Group Creator ID"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="140dp"
+            android:layout_gravity="center"
+            android:background="@color/orange"
+            android:text="HAPPY GIFT GROUP"
+            android:id="@+id/giftHappy"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reclopp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

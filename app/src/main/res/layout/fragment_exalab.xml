@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exalab">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/datenow"
+            android:text="Date"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Overall Score"
+            android:textColor="@color/orange"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/namestudes"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/gradin"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/spinname"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/inputexam"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/saveexam"
+            android:layout_gravity="center"
+            android:text="SAVE"
+            android:background="@drawable/shape_default"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

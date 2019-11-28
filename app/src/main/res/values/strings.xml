@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SmarTap</string>
+    <string name="minimum_password">8</string>
+    <string name="auth_failed">Email or Pass</string>
+    <string name="checkremember">Remember me</string>
+    <string name="Teacher">Teacher</string>
+    <string name="Student">Student</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">ConfirmPassword</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="profilname">prfname</string>
+    <string name="profemail">Profmail</string>
+
+    <string name="checkbox">com.example.arbiterchil.smartap.checkbox</string>
+    <string name="user">com.example.arbiterchil.smartap.user</string>
+    <string name="pass">com.example.arbiterchil.smartap.pass</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

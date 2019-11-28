@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "808360607350",
+    "firebase_url": "https://smartap-508ec.firebaseio.com",
+    "project_id": "smartap-508ec",
+    "storage_bucket": "smartap-508ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808360607350:android:c52606d66532e003",
+        "android_client_info": {
+          "package_name": "com.example.arbiterchil.smartap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808360607350-44tok4prgc8iu3tve4321mu4m1h5po46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arbiterchil.smartap",
+            "certificate_hash": "04bae91fd6947487617599e3d77268a80af7bad1"
+          }
+        },
+        {
+          "client_id": "808360607350-vjo93ig6lm76vk3e0op454rtj83lpepi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAd5-05aBIyMcYkfaN5La6cWYRPGopScI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808360607350-vjo93ig6lm76vk3e0op454rtj83lpepi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

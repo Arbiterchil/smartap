@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/icon_profile"
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+
+        <item
+            android:icon="@drawable/icon_join"
+            android:id="@+id/joingroup"
+            android:title="Join Subject Class"/>
+
+        <item
+            android:icon="@drawable/icon_notif"
+            android:id="@+id/nav_notif"
+            app:actionViewClass="android.widget.TextView"
+            android:title="Notification"/>
+
+        <item
+            android:icon="@drawable/icon_grade"
+            android:id="@+id/posting"
+            app:actionViewClass="android.widget.TextView"
+            android:title="Post Grades"/>
+
+        <item
+            android:icon="@drawable/icon_exit"
+            android:id="@+id/nav_sig"
+            android:title="Sign out" />
+
+    </group>
+
+    
+</menu>

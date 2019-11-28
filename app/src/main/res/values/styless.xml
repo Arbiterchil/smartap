@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="loginback" parent="AppTheme.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/calming</item>
+
+    </style>
+
+    <style name="profileimage" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/profile</item>
+
+    </style>
+
+    <style name="barchange" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/calming</item>
+    </style>
+</resources>

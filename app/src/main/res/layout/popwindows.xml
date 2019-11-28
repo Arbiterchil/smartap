@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkmagic">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/urlimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="2dp" />
+        <TextView
+            android:id="@+id/uids"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="2dp" />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/groupcreate"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:hint="Enter Group Name"
+            style="@style/spacestyle"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/passgenets"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:hint="Group Password"
+            style="@style/spacestyle"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/savegroup"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="90dp"
+                    android:background="@color/orange"
+                    android:text="Save Group" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/genetpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/greenlight"
+                    android:textColor="@color/black"
+                    android:text="Generate"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/darkmagic"
+    android:layout_height="200dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/checkstud"
+            android:layout_width="100dp"
+            android:id="@+id/enters"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp"
+            />
+        <ImageView
+            android:src="@drawable/not"
+            android:layout_width="100dp"
+            android:id="@+id/noenters"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:src="@drawable/drop"
+            android:layout_width="100dp"
+            android:id="@+id/drop"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp"
+            />
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/realorange"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:textSize="28dp"
+                android:text="112368"
+                android:id="@+id/kath"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@color/realorange"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textSize="18dp"
+                android:text="Amad, Erchil"
+                android:id="@+id/niko"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

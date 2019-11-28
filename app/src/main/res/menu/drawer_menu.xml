@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/icon_profile"
+            android:id="@+id/nav_profile"
+            android:title="Profile Information" />
+
+        <item
+            android:icon="@drawable/icon_notif"
+            android:id="@+id/nav_notif"
+            app:actionViewClass="android.widget.TextView"
+            android:title="Notification"/>
+
+
+
+            <item
+                android:icon="@drawable/icon_join"
+                android:id="@+id/nav_create"
+                android:title="Subject Handle" />
+            <item
+                android:icon="@drawable/icon_grade"
+                android:id="@+id/nav_grade"
+                android:title="Records" />
+        <item
+            android:icon="@drawable/gift"
+            android:id="@+id/givegroup"
+            android:title="Substitute Class"
+            />
+            <item
+                android:icon="@drawable/icon_exit"
+                android:id="@+id/nav_sig"
+                android:title="Sign out" />
+
+    </group>
+</menu>

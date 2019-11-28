@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.arbiterchil.smartap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".xyz"
+        android:allowBackup="true"
+        android:icon="@drawable/flower"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden|adjustResize|adjustPan|adjustUnspecified"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".StudeHome"></activity>
+        <activity android:name=".comfirmjoin" />
+        <activity android:name=".markabsent" />
+        <activity android:name=".seatplanauto" />
+        <activity
+            android:name=".alllist"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".add_stud" />
+        <activity android:name=".StudeAtten" />
+        <activity
+            android:name=".Updateform"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".checkyou"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".computes" />
+        <activity android:name=".Assign2" />
+        <activity android:name=".Assign" />
+        <activity android:name=".Compute" />
+
+        <service android:name=".ServicesUid">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".login"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".forget" />
+        <activity android:name=".homestud" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Poplist"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".joinreq" />
+        <activity
+            android:name=".jpass"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".giftclass" />
+        <activity android:name=".Attendance" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

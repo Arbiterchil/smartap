@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmagic"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Poplist">
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="410dp"
+        android:src="@drawable/seat"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_seat"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="330dp"
+        android:src="@drawable/list"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_stuflist"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:src="@drawable/edit"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_record"
+        app:pressedTranslationZ="12dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:src="@drawable/delete"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_delete"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/record"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_list"
+        app:pressedTranslationZ="12dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/flower"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="16dp"
+        android:id="@+id/fab_plus"
+        android:scaleType="center"
+        app:fabSize="normal"
+        app:maxImageSize="51dp"
+        app:pressedTranslationZ="12dp"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/realorange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="30dp"
+                android:background="@color/realorange"
+                android:layout_height="90dp">
+                <TextView
+                    android:id="@+id/idgroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="x"
+                    android:textColor="@color/orange"
+                    android:textSize="22dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@color/orange"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/gcname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Students List:"
+                    android:textColor="@color/darkmagic"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/Datenow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="date"
+                    android:textColor="@color/darkmagic"
+                    android:textSize="22dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/timecounter"
+            android:textSize="18dp"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/blueblack"
+            android:layout_gravity="center"
+            android:text="Clock Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/startthings"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+           android:src="@drawable/startbutton"
+            android:textColor="@color/black"
+            android:text="Start Attendance" />
+        <ImageView
+            android:id="@+id/savethings"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/endbutt"
+            android:textColor="@color/black"
+            android:text="Save Intances" />
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

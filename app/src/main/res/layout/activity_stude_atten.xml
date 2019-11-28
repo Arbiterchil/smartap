@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".StudeAtten">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:src="@drawable/leave"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_leave"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:src="@drawable/record"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_list"
+        app:pressedTranslationZ="12dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/join"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:id="@+id/fab_join"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/flower"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_gravity="bottom|end"
+        android:elevation="16dp"
+        android:id="@+id/fab_plus"
+        android:scaleType="center"
+        app:fabSize="normal"
+        app:maxImageSize="51dp"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="30dp"
+        android:background="@color/realorange"
+        android:layout_height="80dp">
+        <TextView
+            android:id="@+id/idgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="x"
+            android:textColor="@color/orange"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/gcname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:text="Students List:"
+            android:textColor="@color/darkmagic"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/studentname"
+            android:layout_marginTop="5dp"
+            android:textSize="24sp"
+            android:textColor="@color/realorange"
+            android:text="ERCHIL B. AMAD"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tap"
+        android:layout_gravity="center"
+        android:src="@drawable/profiless"
+        android:layout_width="170dp"
+        android:layout_height="170dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:id="@+id/seatplan"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/seat"
+        android:layout_height="120dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

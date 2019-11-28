@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".arecit">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/datetoday"
+            android:textSize="22dp"
+            android:text="DATE"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Overall Score"
+            android:textColor="@color/orange"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/namestudes"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/mobname"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/namse"
+            android:textColor="@color/orange"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/randomize"
+            android:text="RANDOM"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_default"/>
+
+        <EditText
+            style="@style/spacestyle"
+            android:id="@+id/mobscore"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:layout_width="350dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:hint="INPUT SCORE"
+            android:layout_height="wrap_content" />
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="205dp"
+               android:layout_height="90dp">
+               <Button
+                   android:id="@+id/starto"
+                   android:text="Start"
+                   android:textColor="@color/white"
+                   android:background="@color/realorange"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="205dp"
+               android:layout_height="90dp">
+               <Button
+                   android:id="@+id/reseto"
+                   android:text="Reset"
+                   android:textColor="@color/white"
+                   android:background="@color/orange"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/saves"
+            android:text="SAVE"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_default"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+<ListView
+    android:id="@+id/theHeck"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listnotcold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

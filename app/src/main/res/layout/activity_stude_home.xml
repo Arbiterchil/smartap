@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".StudeHome">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/flower"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="WELCOME STUDENT of UM TAGUM COLLEGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:id="@+id/nameexist"
+        android:textColor="@color/white"
+        android:text="ERCHIL B. AMAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:text="PROCEED PROFILE"
+        android:textColor="@color/white"
+        android:id="@+id/proc"
+        android:background="@color/realorange"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:id="@+id/logoutshit"
+        android:background="@color/realorange"
+        android:layout_height="60dp" />
+
+</LinearLayout>
+</ScrollView>

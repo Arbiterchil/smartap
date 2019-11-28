@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    tools:context=".Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField2"
+            android:layout_width="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="65dp"
+            style="@style/spacestyle"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/white"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/idnumer"
+                style="@style/spacestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="number"
+                android:backgroundTint="@color/white"
+                android:hint="ID Number"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField3"
+            android:layout_width="300dp"
+            style="@style/spacestyle"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="65dp"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/white"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/flname"
+                style="@style/spacestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/white"
+                android:hint="FirstName"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField4"
+            android:layout_width="300dp"
+            style="@style/spacestyle"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="65dp"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/white"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/lname"
+                style="@style/spacestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/white"
+                android:hint="LastName"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField5"
+            android:layout_width="300dp"
+            style="@style/spacestyle"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="65dp"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/white"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/emailed"
+                style="@style/spacestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/white"
+                android:hint="ex. Smartap@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            style="@style/spacestyle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="25dp"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/colorPrimary"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/passwords"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/materialTextField"
+                android:hint="Password"
+                style="@style/spacestyle"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialTextField01"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            style="@style/spacestyle"
+            android:layout_marginRight="2dp"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="25dp"
+            app:passwordToggleDrawable="@drawable/icon_select"
+            app:passwordToggleTint="@color/colorPrimary"
+            android:textColorHint="@color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/pen"
+                style="@style/spacestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/materialTextField"
+                android:hint="Confirm Password"
+
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <RadioGroup
+            android:id="@+id/rge"
+
+            android:layout_width="264dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:buttonTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:id="@+id/teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Teacher" />
+
+            <RadioButton
+                android:buttonTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:id="@+id/student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Student" />
+        </RadioGroup>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:id="@+id/logs"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+    </LinearLayout>
+
+

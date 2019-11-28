@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmagic"
+    tools:context=".alllist">
+
+<RelativeLayout
+    android:paddingBottom="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:background="@color/realorange"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="ID NUMBER"
+            android:id="@+id/idput"
+            style="@style/spacestyle"
+            android:textAlignment="center"
+            android:textColor="@color/realorange"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="First Name"
+            android:id="@+id/fnput"
+            android:textAlignment="center"
+            android:textColor="@color/realorange"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            style="@style/spacestyle"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/lnput"
+            android:hint="Last Name"
+            android:textAlignment="center"
+            android:textColor="@color/realorange"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            style="@style/spacestyle"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="240dp"
+        android:text="SAVE Student LIST"
+        android:id="@+id/savethelist"
+        android:backgroundTint="@color/realorange"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

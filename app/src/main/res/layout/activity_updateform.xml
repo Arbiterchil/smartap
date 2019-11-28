@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Updateform">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/setImage"
+            android:background="@drawable/profiless"
+            android:layout_width="160dp"
+            android:layout_height="160dp" />
+        <TextView
+            android:id="@+id/uril"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="ID Number"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:id="@+id/idnub"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Firstname"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:id="@+id/firn"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textAlignment="center"
+            android:hint="Lastname"
+            android:id="@+id/lan"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="189dp"
+            android:text="UPDATE"
+            android:id="@+id/upda"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/realorange"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
